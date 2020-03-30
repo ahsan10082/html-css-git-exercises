@@ -1,1 +1,4 @@
 /* Add your own CSS code below */
+@media .countries {
+  columns: 2;
+}

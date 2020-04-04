@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/week3-forms.css" />
   </head>
-
+  ​
   <body>
     <div class="site-wrapper">
       <main>
@@ -27,11 +27,32 @@
             ne quem justo mea.
           </p>
         </article>
-
+        ​
         <div class="comments">
           <p>Add your comments and let us know what you think!</p>
-
-          <!-- Your comment form goes here -->
+          <form method="GET" id="checkout-form" class="checkout__form">
+            <p>
+              <label for="customer-name">First name:</label>
+              <input type="text" id="customer-name" name="customer-name" />
+            </p>
+            ​
+            <p>
+              <label for="email">E-mail:</label>
+              <input type="text" id="customer-email" name="customer-email" />
+            </p>
+            ​
+            <p>
+              <label for="customer-phone">Telephone:</label>
+              <input type="text" id="customer-phone" name="customer-phone" />
+            </p>
+            ​
+            <p>
+              <label for="customer-comment">Comments:</label>
+              <textarea rows="4" cols="50" name="customer-comment">Enter text here...</textarea>
+            </p>
+            ​
+            <button type="submit">Complete Purchase</button>
+          </form>
         </div>
       </main>
     </div>
